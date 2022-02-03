@@ -1,6 +1,10 @@
 .header {
-  text-align: right;
-  text-shadow: ;
+  text-align: center;
+  text-decoration: line-through;
+}
+
+.benPicture {
+  transform: translateX(210%);
 }
 
 .main {
