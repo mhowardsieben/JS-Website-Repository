@@ -4,9 +4,13 @@
 }
 
 .benPicture {
-  transform: translateX(210%);
+  transform: scaleX(500%);
 }
 
 .main {
  text-align: center;
+}
+
+.Quote {
+  text-align: center;
 }
