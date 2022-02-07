@@ -1,10 +1,14 @@
+head {
+  background-color: #FFFF00;
+}
+
 .header {
   text-align: center;
   text-decoration: line-through;
 }
 
 .benPicture {
-  transform: scaleX(500%);
+  transform: scaleX(1000%);
 }
 
 .main {
@@ -13,4 +17,24 @@
 
 .Quote {
   text-align: center;
+}
+
+.Nav {
+  color: #000000;
+  text-decoration: none;
+}
+
+.Nav:hover {
+  text-decoration: none;
+  color:  #FF0000;
+}
+
+.Wiki {
+  color: #000000;
+  text-decoration: none;
+}
+
+.Wiki:hover {
+  text-decoration: none;
+  color:  #FF0000;s
 }
