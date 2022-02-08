@@ -1,22 +1,33 @@
-head {
-  background-color: #FFFF00;
-}
 
 .header {
   text-align: center;
   text-decoration: line-through;
+  background-color: #FFFFFF;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 .benPicture {
   transform: scaleX(1000%);
 }
 
-.main {
+.center {
  text-align: center;
+ background-color: blue;
+ left: 0;
+ right: 0;
+ bottom: 0S;
 }
 
 .Quote {
   text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color:  #FF0000;
 }
 
 .Nav {
@@ -36,5 +47,9 @@ head {
 
 .Wiki:hover {
   text-decoration: none;
-  color:  #FF0000;s
+  color:  #FF0000;
+}
+
+.main {
+  background-color: #0000FF;
 }
