@@ -1,15 +1,16 @@
 
 .header {
   text-align: center;
-  text-decoration: line-through;
+  text-decoration: underline;
   background-color: #FFFFFF;
+  position: absolute;
   width: 100%;
   top: 0;
   left: 0;
 }
 
 .benPicture {
-  transform: scaleX(500%);
+  transform: scaleX(800%);
 }
 
 .center {
@@ -17,7 +18,7 @@
  background-color: blue;
  left: 0;
  right: 0;
- bottom: 0S;
+ bottom: 0;
 }
 
 .Quote {
