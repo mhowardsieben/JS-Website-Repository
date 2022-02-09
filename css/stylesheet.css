@@ -4,13 +4,12 @@
   text-decoration: line-through;
   background-color: #FFFFFF;
   width: 100%;
-  position: fixed;
   top: 0;
   left: 0;
 }
 
 .benPicture {
-  transform: scaleX(1000%);
+  transform: scaleX(500%);
 }
 
 .center {
