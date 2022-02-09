@@ -1,0 +1,9 @@
+.count {
+  position: absolute;
+  top: 0;
+  border-radius: $radius*.1;
+  margin: $size*.25;
+  background: $bg;
+  width: $size*.25;
+  text-align: center;
+}

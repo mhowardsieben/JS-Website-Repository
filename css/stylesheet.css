@@ -19,7 +19,7 @@
   bottom: 0;
   left: 0;
   width: 100%;
-  background-color:  #FF0000;
+  background-color:  #DA291C;
 }
 
 .Nav {
@@ -28,7 +28,7 @@
 }
 
 .center {
-  background-color: blue;
+  background-color: #0033A0;
 }
 
 .Nav:hover {
@@ -48,9 +48,10 @@
 
 .main {
   text-align: center;
-  background-color: blue;
+  background-color: #0033A0;
   position: fixed;
   left: 0;
   right: 0;
   bottom: 15%;
+  top: 14%;
 }
