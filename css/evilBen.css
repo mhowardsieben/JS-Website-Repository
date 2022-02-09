@@ -1,3 +1,40 @@
+.upvote {
+  .up { border-radius: 2rem 2rem 0 0; }
+  .down { border-radius: 0 0 2rem 2rem; }
+  .count { border-radius: .5rem .5rem; }
+}
+
+.vote {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: $size;
+  height: $size;
+  margin: 1rem;
+}
+
+.increment {
+  flex: 1 0 0;
+  text-align: center;
+  opacity: .5;
+  transition: $transition;
+  cursor: pointer;
+}
+
+&.up {
+    background: $green;
+    height: 50%;
+    margin-bottom: $border-width/2;
+  }
+  &.down {
+    background: $red;
+    height: 50%;
+  }
+
+&.upvoted { color: $green; }
+&.downvoted { color: $red; }
+}
+
 .count {
   position: absolute;
   top: 0;
