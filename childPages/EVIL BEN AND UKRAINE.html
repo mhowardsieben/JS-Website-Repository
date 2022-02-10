@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-<link rel="stylesheet" href="...\css\evilBen"></link>
+<link rel="stylesheet" href="..\css\evilBen.css"></link>
   <head>
     <meta charset="utf-8">
     <title>Evil Ben</title>
@@ -10,13 +10,14 @@
       Vote on what you think of Ben.
     </p>
     <div class="upvoteButton">
-      <p id="plus">+</p>
+      <button type="button" onclick="plus()">+</p>
     </div>
     <div class="Counter">
-      <p id>0</p>
+      <p id="number">0</p>
     </div>
     <div class="downvoteButton">
       <p>-</p>
     </div>
+    <script src="..\js\vote.js"></script>
   </body>
 </html>

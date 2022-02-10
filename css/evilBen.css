@@ -1,6 +1,7 @@
 .upvoteButton {
   border-style: solid;
-  border-radius: 20%;
+  border-width: thin;
+  width: 1.5%;
 }
 
 .Counter {
