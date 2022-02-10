@@ -1,46 +1,12 @@
-.upvote {
-  .up { border-radius: 2rem 2rem 0 0; }
-  .down { border-radius: 0 0 2rem 2rem; }
-  .count { border-radius: .5rem .5rem; }
+.upvoteButton {
+  border-style: solid;
+  border-radius: 20%;
 }
 
-.vote {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  width: $size;
-  height: $size;
-  margin: 1rem;
+.Counter {
+
 }
 
-.increment {
-  flex: 1 0 0;
-  text-align: center;
-  opacity: .5;
-  transition: $transition;
-  cursor: pointer;
-}
+.downvoteButton {
 
-&.up {
-    background: $green;
-    height: 50%;
-    margin-bottom: $border-width/2;
-  }
-  &.down {
-    background: $red;
-    height: 50%;
-  }
-
-&.upvoted { color: $green; }
-&.downvoted { color: $red; }
-}
-
-.count {
-  position: absolute;
-  top: 0;
-  border-radius: $radius*.1;
-  margin: $size*.25;
-  background: $bg;
-  width: $size*.25;
-  text-align: center;
 }
