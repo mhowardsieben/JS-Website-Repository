@@ -1,10 +1,15 @@
-var count = 0
-function plus() {
-  getElementById('number')
-  let count = 'number'
-  count++;
+var counterplus = document.getElementsByClassName('upvoteButton');
+var counterminus = document.getElementsByClassName('downvoteButton');
+var counterdisplay = document.getElementsByClassName('counter');
+var count = 0;
+
+updateDisplay();
+
+counterplus.onclclick = function(){
+  count += 1;
+  updateDisplay();
 }
 
-function minus() {
-  count--;
+function updateDisplay() {
+  counterdisplay.innerhtml = count;
 }
