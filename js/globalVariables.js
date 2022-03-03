@@ -10,6 +10,10 @@ var loginValues= [
   {
     username: "Safi",
     password: "egg"
+  },
+  {
+    username: "Mercer",
+    password: "Kitchen"
   }
 ]
 const counterplus = document.querySelector('.upvoteButton');
