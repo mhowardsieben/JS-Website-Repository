@@ -1,4 +1,4 @@
-var loggedIn = false;
+let loggedIn = false;
 localStorage.setItem("loggedIn", loggedIn);
 loginButton.addEventListener("click",
   function getInfo() {
