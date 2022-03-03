@@ -6,6 +6,7 @@ loginButton.addEventListener("click",
       if (username == loginValues[i].username && password == loginValues[i].password) {
         console.log(username + " is logged in");
         window.location.replace("childPages\\main.html");
+        loggedIn = true;
         return;
       }
     }
