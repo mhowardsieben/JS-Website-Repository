@@ -23,11 +23,11 @@ var loggedIn = localStorage.getItem("loggedIn");
 let count = document.querySelector('.counter');
 let upVote = false;
 console.log(loggedIn)
-if (loggedIn === true) {
+if (loggedIn = true) {
   window.location.href = "childPages\\main.html";
   console.log("Its Working")
 }
-else if (loggedIn === false) {
+else if (loggedIn = false) {
   console.log("Signed Out")
   window.location.replace("..\\Index.html");
 }
