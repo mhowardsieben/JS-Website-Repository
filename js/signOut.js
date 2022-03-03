@@ -1,9 +1,11 @@
 signoutButton.addEventListener("click",
   function signOut() {
-    let loggedIn = false;
+    loggedIn = false;
     localStorage.setItem("loggedIn", loggedIn);
-    console.log("Signed Out")
     window.location.replace("..\\Index.html");
-    return;
   }
 )
+if (loggedIn == false) {
+  console.log("Signed Out")
+  window.location.replace("..\\Index.html");
+}

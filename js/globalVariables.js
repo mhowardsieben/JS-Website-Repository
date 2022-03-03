@@ -16,14 +16,10 @@ const counterplus = document.querySelector('.upvoteButton');
 const counterminus = document.querySelector('.downvoteButton');
 var post = document.getElementById('post');
 var loginButton = document.getElementById('Login');
-var signoutButton = document.getElementById('signOut')
-var username = localStorage.getItem("username")
+var signoutButton = document.getElementById('signOut');
+var username = localStorage.getItem("username");
+var loggedIn = false;
 var loggedIn = localStorage.getItem("loggedIn");
 let count = document.querySelector('.counter');
 let upVote = false;
-if (loggedIn = true) {
-  console.log(username + " is logged in")
-} else if (loggedIn = false) {
-  console.log("Not logged in")
-}
 console.log(loggedIn)
