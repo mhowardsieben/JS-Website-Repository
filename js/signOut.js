@@ -1,3 +1,5 @@
+var loggedIn = false;
+localStorage.setItem("loggedIn", loggedIn);
 signoutButton.addEventListener("click",
   function signOut() {
     loggedIn = false;

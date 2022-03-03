@@ -2,14 +2,18 @@ function getRandomInt(max) {
   return Math.floor(Math.random() * max);
 }
 
+var upVote = false;
+
 counterplus.addEventListener('click', function() {
   let random = getRandomInt(10);
   console.log(random);
   if (random == 0) {
     upVote = true
+    localStorage.setItem("upVote", upVote);
     console.log("upvote = " + upVote);
   } else if (random > 0) {
     upVote = false;
+    localStorage.setItem("upVote", upVote);
     console.log('upvote = ' + upVote)
   }
   if (upVote === true) {
