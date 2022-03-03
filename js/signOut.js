@@ -1,5 +1,3 @@
-var loggedIn = false;
-localStorage.setItem("loggedIn", loggedIn);
 signoutButton.addEventListener("click",
   function signOut() {
     loggedIn = false;
@@ -7,6 +5,7 @@ signoutButton.addEventListener("click",
     window.location.replace("..\\index.html");
   }
 )
-if (loggedIn = false) {
+if (loggedIn === false) {
   window.location.replace("..\\index.html");
+  console.log("Working");
 }
