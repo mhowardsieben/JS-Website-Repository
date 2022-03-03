@@ -1,19 +1,3 @@
-var loginButton = document.getElementById('Login');
-var loginValues= [
-  {
-    username: "Ben",
-    password: "Sucks"
-  },
-  {
-    username: "Mikael",
-    password: "Rocks"
-  },
-  {
-    username: "Safi",
-    password: "egg"
-  }
-]
-
 loginButton.addEventListener("click",
   function getInfo() {
     var username = document.getElementById('Username').value;

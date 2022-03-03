@@ -1,7 +1,3 @@
-const counterplus = document.querySelector('.upvoteButton');
-const counterminus = document.querySelector('.downvoteButton');
-let count = document.querySelector('.counter');
-
 function getRandomInt(max) {
   return Math.floor(Math.random() * max);
 }
