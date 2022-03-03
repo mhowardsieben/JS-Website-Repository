@@ -15,3 +15,6 @@ loginButton.addEventListener("click",
     console.log("Incorrect Login")
   }
 )
+if (loggedIn = true) {
+  window.location.href = "childPages\\main.html";
+}
