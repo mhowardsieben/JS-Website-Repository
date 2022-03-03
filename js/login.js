@@ -1,5 +1,3 @@
-var loggedIn = false;
-localStorage.setItem("loggedIn", loggedIn);
 loginButton.addEventListener("click",
   function getInfo() {
     var username = document.getElementById('Username').value;
