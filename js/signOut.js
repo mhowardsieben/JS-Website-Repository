@@ -7,6 +7,6 @@ signoutButton.addEventListener("click",
     window.location.replace("..\\index.html");
   }
 )
-if (loggedIn = true) {
+if (loggedIn === true) {
   window.location.replace("childPages\\main.html");
 }
