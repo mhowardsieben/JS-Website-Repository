@@ -21,5 +21,7 @@ var username = localStorage.getItem("username");
 var loggedIn = localStorage.getItem("loggedIn");
 let count = document.querySelector('.counter');
 let upVote = localStorage.getItem("upVote");
-
-console.log(loggedIn)
+console.log(loggedIn);
+if (loggedIn = false) {
+  window.location.replace("..\\index.html");
+}
