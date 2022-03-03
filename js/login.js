@@ -17,7 +17,7 @@ loginButton.addEventListener("click",
     console.log("Incorrect Login")
   }
 )
-if (loggedIn == true) {
+if (loggedIn === true) {
   window.location.replace("childPages\\main.html");
   console.log("Working");
 }
