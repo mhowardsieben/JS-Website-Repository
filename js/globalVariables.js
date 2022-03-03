@@ -18,7 +18,6 @@ var post = document.getElementById('post');
 var loginButton = document.getElementById('Login');
 var signoutButton = document.getElementById('signOut');
 var username = localStorage.getItem("username");
-var loggedIn = false;
 var loggedIn = localStorage.getItem("loggedIn");
 let count = document.querySelector('.counter');
 let upVote = false;
