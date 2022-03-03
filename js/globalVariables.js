@@ -14,11 +14,11 @@ var loginValues= [
 ]
 const counterplus = document.querySelector('.upvoteButton');
 const counterminus = document.querySelector('.downvoteButton');
-var post = document.getElementById('post');
-var loginButton = document.getElementById('Login');
-var signoutButton = document.getElementById('signOut');
+const post = document.getElementById('post');
+const loginButton = document.getElementById('Login');
+const signoutButton = document.getElementById('signOut');
 var username = localStorage.getItem("username");
-var loggedIn = localStorage.getItem("loggedIn");
+let loggedIn = localStorage.getItem("loggedIn");
 let count = document.querySelector('.counter');
 let upVote = localStorage.getItem("upVote");
 console.log(loggedIn);
