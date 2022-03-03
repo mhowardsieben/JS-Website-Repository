@@ -55,3 +55,6 @@
   bottom: 15%;
   top: 14%;
 }
+#signOut {
+  transform: translateY(10%);
+}
