@@ -5,7 +5,7 @@ signoutButton.addEventListener("click",
     window.location.replace("..\\Index.html");
   }
 )
-if (loggedIn = false) {
+if (loggedIn ==== false) {
   console.log("Signed Out")
   window.location.replace("..\\Index.html");
 }
