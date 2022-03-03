@@ -5,6 +5,3 @@ signoutButton.addEventListener("click",
     window.location.replace("..\\index.html");
   }
 )
-if (loggedIn = false) {
-  window.location.replace("..\\index.html");
-}
