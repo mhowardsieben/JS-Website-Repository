@@ -2,8 +2,6 @@ function getRandomInt(max) {
   return Math.floor(Math.random() * max);
 }
 
-var upVote = false;
-
 counterplus.addEventListener('click', function() {
   let random = getRandomInt(10);
   console.log(random);
