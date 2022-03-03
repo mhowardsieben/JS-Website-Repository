@@ -2,11 +2,11 @@ loginButton.addEventListener("click",
   function getInfo() {
     var username = document.getElementById('Username').value;
     var password = document.getElementById('Password').value;
+    localStorage.setItem("username", username);
+    localStorage.setItem("password", password);
     for(i = 0; i < loginValues.length; i++) {
       if (username == loginValues[i].username && password == loginValues[i].password) {
-        console.log(username + " is logged in");
-        window.location.replace("childPages\\main.html");
-        loggedIn = true;
+        window.location.href = "childPages\\main.html";
         return;
       }
     }

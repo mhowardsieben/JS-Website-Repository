@@ -15,10 +15,8 @@ var loginValues= [
 const counterplus = document.querySelector('.upvoteButton');
 const counterminus = document.querySelector('.downvoteButton');
 var post = document.getElementById('post');
-var loginButton = document.getElementById('Login')
+var loginButton = document.getElementById('Login');
+var username = localStorage.getItem("username")
 let count = document.querySelector('.counter');
-let loggedIn = false;
 let upVote = false;
-if (loggedIn == true) {
-  console.log(username + " is logged in")
-}
+console.log(username + " is logged in")
