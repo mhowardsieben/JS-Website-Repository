@@ -1,0 +1,13 @@
+#Username {
+  transform: scale(150%);
+  position: relative;
+  left: 45%;
+  right: auto;
+  transform: translateY(650%);
+  transform: scale(150%);
+}
+#Password {
+  position: relative;
+  left: 35.5%;
+  right: auto;
+}
