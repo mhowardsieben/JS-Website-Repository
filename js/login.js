@@ -1,5 +1,3 @@
-loggedIn = false;
-localStorage.setItem("loggedIn", loggedIn);
 loginButton.addEventListener("click",
   function getInfo() {
     var username = document.getElementById('Username').value;
@@ -14,6 +12,9 @@ loginButton.addEventListener("click",
         return;
       }
     }
-    console.log("Incorrect Login")
+    console.log("Incorrect Login");
+  })
+  if (loggedIn === true) {
+    window.location.replace("childPages\\main.html");
+    console.log("Logged In")
   }
-)
