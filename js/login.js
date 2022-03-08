@@ -1,9 +1,3 @@
-if (loggedIn = true) {
-  console.log("Logged In");
-  window.location.replace("childPages\\main.html");
-} else if (loggedIn = false) {
-  console.log("Not Logged In");
-};
 loginButton.addEventListener("click",
   function getInfo() {
     var username = document.getElementById('Username').value;
