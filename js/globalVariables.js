@@ -25,4 +25,5 @@ var username = localStorage.getItem("username");
 var loggedIn = localStorage.getItem("loggedIn");
 let count = document.querySelector('.counter');
 let upVote = localStorage.getItem("upVote");
+var voted = localStorage.getItem("voted");
 console.log(loggedIn);

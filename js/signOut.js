@@ -1,3 +1,4 @@
+var loggedIn = localStorage.getItem("loggedIn");
 signoutButton.addEventListener("click",
   function signOut() {
     loggedIn = false;
@@ -13,3 +14,7 @@ window.addEventListener("load",
     };
   }
 );
+if (loggedIn == "false" || loggedIn == null) {
+  window.location.replace("..\\index.html");
+  console.log("Not Signed In");
+}
