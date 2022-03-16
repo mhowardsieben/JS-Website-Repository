@@ -22,8 +22,6 @@ counterplus.addEventListener('click', function() {
       count.innerHTML = parseInt(count.innerHTML) - 1;
       console.log('if not 0')
     }
-    voted = true;
-    localStorage.setItem("voted", voted);
   }
 });
 

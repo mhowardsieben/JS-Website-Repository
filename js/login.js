@@ -10,9 +10,13 @@ loginButton.addEventListener("click",
         var loggedIn = true;
         localStorage.setItem("loggedIn", loggedIn);
         return;
+      } else if (registeredUsername == registeredUsername && registeredPassword == registeredPassword) {
+          window.location.href = "childPages\\main.html";
+          var loggedIn = true;
+          localStorage.setItem("loggedIn", loggedIn);
+          return;
       }
     }
-    console.log("Incorrect Login");
   }
 );
 if (loggedIn == "true") {
