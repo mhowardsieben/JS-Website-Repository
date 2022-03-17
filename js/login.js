@@ -10,7 +10,7 @@ loginButton.addEventListener("click",
         var loggedIn = true;
         localStorage.setItem("loggedIn", loggedIn);
         return;
-      } else if (registeredUsername == registeredUsername && registeredPassword == registeredPassword) {
+      } else if (registeredUsername == "registeredUsername" && registeredPassword == "registeredPassword") {
           window.location.href = "childPages\\main.html";
           var loggedIn = true;
           localStorage.setItem("loggedIn", loggedIn);
