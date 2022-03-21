@@ -1,8 +1,11 @@
 registerButton.addEventListener("click",
   function register() {
-    var username = document.getElementById('Username').value;
-    var password = document.getElementById('Password').value;
-    localStorage.setItem("username", username);
-    localStorage.setItem("password", password);
+    var registeredUsername = document.getElementById('Username').value;
+    var registeredPassword = document.getElementById('Password').value;
+    localStorage.setItem("username", registeredUsername);
+    localStorage.setItem("password", registeredPassword);
+    username = registeredUsername;
+    password = registeredPassword;
+    location.reload();
   }
 )
